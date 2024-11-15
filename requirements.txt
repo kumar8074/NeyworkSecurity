@@ -6,6 +6,7 @@ certifi
 scikit-learn
 mlflow
 pyaml
+dagshub
 
 ##-e .
 ##pymongo[srv]==3.6

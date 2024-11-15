@@ -19,6 +19,9 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import AdaBoostClassifier, GradientBoostingClassifier, RandomForestClassifier
 import mlflow
 
+import dagshub #cab be found in dagshub (experiments)
+dagshub.init(repo_owner='k.lalan3252', repo_name='NeyworkSecurity', mlflow=True)
+
 
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig, data_transformation_artifact:DataTransformationArtifact):
